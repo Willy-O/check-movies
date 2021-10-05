@@ -1,6 +1,7 @@
 {
     "name": "Barbie Danna",
     "short_name": "Barbie",
+    "description": "List of barbie movies to chek",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
