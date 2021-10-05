@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f772b5;
+  color: #000;
+  text-align: center;
+}
+
+h1{
+  padding: 24px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+  background-image: url("assets/barbie.png");
+  background-repeat: space;
+  background-size: 40px 72px ;
+  padding: 24px
+}
+
+div{
+  padding: 16px;
+}
+
+img{
+  width: 100%;
+  min-width: 210px;
+  max-width: 250px;
+  height: 320px;
+  padding: 8px;
+}
+
+input{
+  margin-top: 24px;
+  width: 24px;
+  height: 24px;
+}
